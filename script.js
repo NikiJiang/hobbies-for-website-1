@@ -1,0 +1,1 @@
+https://www.google.com/search?q=html+tabs&rlz=1C5CHFA_enUS824US824&source=lnms&tbm=vid&sa=X&ved=2ahUKEwjfkuv-85P9AhWJK1kFHbXLBwQQ_AUoAnoECAEQBA&biw=1436&bih=756&dpr=1#fpstate=ive&vld=cid:86d1720e,vid:oLqdy95LZSw

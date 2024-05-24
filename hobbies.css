@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body {
+   background-image: linear-gradient(to bottom right, lavender, aliceblue);
+}
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Shadows Into Light;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+.mytabs {
+ display: flex;
+ flex-wrap: wrap;
+ max-width: 1000px;
+ margin: 50px auto;
+padding: 25px;
+}
+
+.mytabs input[type="radio"]{
+display:none;
+}
+
+.mytabs label {
+  padding: 25px;
+  background: lightgrey;
+  font-weight: bold;
+}
+.mytabs .tab {
+  width: 100%;
+  padding: 20px;
+  background: white;
+  order: 1;
+  display: none;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+display : block;
+}
+.mytabs input[type="radio"]:checked + label {
+background: white;
+}
+img { width: 200px;
+    }
+#choco {width: 300px;}
+.stuff
+{width: 300px;}
+
+p{ font-family: Quicksand;
+ font-size: 20px; }
+h2 {
+  font-family: Shadows Into Light;
+    font-size: 80px;
+}
+
